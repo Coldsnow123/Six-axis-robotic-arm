@@ -1,0 +1,29 @@
+# PyInstaller 构建产物 (太大, 不传)
+dist/
+build/
+*.spec.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# Keil 编译产物
+jixiebi/MDK-ARM/jixiebi/*.o
+jixiebi/MDK-ARM/jixiebi/*.crf
+jixiebi/MDK-ARM/jixiebi/*.d
+jixiebi/MDK-ARM/jixiebi/*.axf
+jixiebi/MDK-ARM/jixiebi/*.hex
+jixiebi/MDK-ARM/jixiebi/*.htm
+jixiebi/MDK-ARM/jixiebi/*.lnp
+jixiebi/MDK-ARM/jixiebi/*.map
+jixiebi/MDK-ARM/jixiebi/*.sct
+jixiebi/MDK-ARM/*.uvguix.*
+jixiebi/MDK-ARM/*.uvoptx
+jixiebi/MDK-ARM/DebugConfig/
+jixiebi/MDK-ARM/RTE/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
